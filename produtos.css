@@ -23,11 +23,15 @@ nav a {
     font-size: 25px;
     text-decoration: none;
 }
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
 .produtos{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-    background: #CCCCCC;
+    
 }
 
 .produtos li {
@@ -35,6 +39,11 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 .produtos{
     font-size: 30px;
@@ -46,4 +55,5 @@ nav a {
 .produto-preço{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
